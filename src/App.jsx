@@ -34,12 +34,12 @@ const App = () => {
             placeholder="add-todo"
             onChange={(e) => setTodo(e.target.value)}
             value={todo}
-            className=" mx-3 md:mx-0 outline-0 border-solid border-[1px] border-gray-400 py-2 px-1 rounded-md flex-1"
+            className=" mx-3 md:mx-0 outline-0 border-solid border-[1px] border-gray-400 py-2 px-3 rounded-md flex-1"
           />
           {todo !== "" && (
             <p
               onClick={() => setTodo("")}
-              className=" absolute -right-10 md:right-2 top-2 cursor-pointer"
+              className=" absolute  right-5 md:right-2 top-2 cursor-pointer"
             >
               X
             </p>
